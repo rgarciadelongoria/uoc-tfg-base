@@ -1,0 +1,52 @@
+{
+  "name": "core-shell",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test",
+    "prepare": "ng build --configuration ${npm_config_configuration} && npx cap sync",
+    "prepare-android": "ng build --configuration ${npm_config_configuration} && npx cap sync android",
+    "prepare-ios": "ng build --configuration ${npm_config_configuration} && npx cap sync ios"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "17.0.7",
+    "@angular/common": "17.0.7",
+    "@angular/compiler": "17.0.7",
+    "@angular/core": "17.0.7",
+    "@angular/forms": "17.0.7",
+    "@angular/platform-browser": "17.0.7",
+    "@angular/platform-browser-dynamic": "17.0.7",
+    "@angular/router": "17.0.7",
+    "@capacitor-community/barcode-scanner": "^4.0.1",
+    "@capacitor/android": "^5.5.1",
+    "@capacitor/angular": "^2.0.3",
+    "@capacitor/core": "latest",
+    "@capacitor/device": "^5.0.6",
+    "@capacitor/ios": "^5.5.1",
+    "@ngx-translate/core": "^15.0.0",
+    "@ngx-translate/http-loader": "^8.0.0",
+    "es-module-shims": "^1.5.12",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.14.2"
+  },
+  "devDependencies": {
+    "@angular-architects/native-federation": "17.0.6",
+    "@angular-devkit/build-angular": "17.0.7",
+    "@angular/cli": "17.0.7",
+    "@angular/compiler-cli": "17.0.7",
+    "@capacitor/cli": "5.7.0",
+    "@types/jasmine": "~5.1.0",
+    "jasmine-core": "~5.1.0",
+    "karma": "~6.4.0",
+    "karma-chrome-launcher": "~3.2.0",
+    "karma-coverage": "~2.2.0",
+    "karma-jasmine": "~5.1.0",
+    "karma-jasmine-html-reporter": "~2.1.0",
+    "typescript": "~5.2.2"
+  }
+}

@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  App
+
+  Created by Ruben Garcia de Longoria Pulido on 5/4/24.
+  
+*/
+"NOTIFICATION_NEW_DATA_TITLE" = "Nuevo juego de %1$@";
+"NOTIFICATION_NEW_DATA_BODY" = "Consulta el premio de tu ticket de %1$@ con fecha %2$@";

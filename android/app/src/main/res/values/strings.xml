@@ -1,7 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">core-shell</string>
-    <string name="title_activity_main">core-shell</string>
+    <string name="app_name">Lookttery</string>
+    <string name="title_activity_main">Lookttery</string>
     <string name="package_name">com.lookttery.app</string>
     <string name="custom_url_scheme">com.lookttery.app</string>
+    <string name="NOTIFICATION_NEW_DATA_TITLE">New %1$s data</string>
+    <string name="NOTIFICATION_NEW_DATA_BODY">Check the prize of your %1$s ticket with date %2$s</string>
 </resources>

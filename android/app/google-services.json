@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1004620903598",
+    "project_id": "lookttery",
+    "storage_bucket": "lookttery.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1004620903598:android:47191ff3f42a5ea63b293f",
+        "android_client_info": {
+          "package_name": "com.lookttery.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUn29Rc3Th-IYHdbmU9jq5GY3GgL47NLo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,8 @@
+/* 
+  InfoPlist.strings
+  App
+
+  Created by Ruben Garcia de Longoria Pulido on 15/4/24.
+  
+*/
+"NSCameraUsageDescription" = "Poder escanear códigos de barras en resguardos de juegos para guardarlos y consultar tus premios";

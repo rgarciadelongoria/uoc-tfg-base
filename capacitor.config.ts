@@ -5,9 +5,14 @@ const config: CapacitorConfig = {
   appName: 'Lookttery',
   webDir: 'dist/core-shell',
   server: {
-    // androidScheme: 'http',
+    androidScheme: 'http',
     allowNavigation: ['*'],
-  }
+  },
+  plugins: {
+    PushNotifications: {
+      presentationOptions: ["badge", "sound", "alert"],
+    },
+  },
 };
 
 export default config;

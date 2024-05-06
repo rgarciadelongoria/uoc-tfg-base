@@ -99,10 +99,13 @@
 						"development": {
 							"optimization": false,
 							"extractLicenses": false,
-							"sourceMap": true
+							"sourceMap": true,
+							"buildOptimizer": false,
+							"vendorChunk": false,
+							"namedChunks": false
 						}
 					},
-					"defaultConfiguration": "production"
+					"defaultConfiguration": "development"
 				},
 				"serve-original": {
 					"builder": "@angular-devkit/build-angular:dev-server",

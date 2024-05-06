@@ -15,6 +15,7 @@
         <activity
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|smallestScreenSize|screenLayout|uiMode"
             android:name=".MainActivity"
+            android:screenOrientation="portrait"
             android:label="@string/title_activity_main"
             android:theme="@style/AppTheme.NoActionBarLaunch"
             android:launchMode="singleTask"
@@ -26,6 +27,8 @@
             </intent-filter>
 
         </activity>
+
+        <meta-data android:name="com.google.mlkit.vision.DEPENDENCIES" android:value="barcode_ui"/>
 
         <provider
             android:name="androidx.core.content.FileProvider"
@@ -40,7 +43,12 @@
 
     <!-- Permissions -->
 
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FLASHLIGHT"/>
     <uses-sdk tools:overrideLibrary="com.google.zxing.client.android" />
+    <uses-feature
+      android:name="android.hardware.camera"
+      android:required="false" />
 </manifest>

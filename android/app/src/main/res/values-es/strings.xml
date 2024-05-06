@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="app_name">Lookttery</string>
+  <string name="title_activity_main">Lookttery</string>
+  <string name="package_name">com.lookttery.app</string>
+  <string name="custom_url_scheme">com.lookttery.app</string>
+  <string name="NOTIFICATION_NEW_DATA_TITLE">Nuevo juego de  %1$s</string>
+  <string name="NOTIFICATION_NEW_DATA_BODY">Consulta el premio de tu ticket de %1$s con fecha %2$s</string>
+</resources>
